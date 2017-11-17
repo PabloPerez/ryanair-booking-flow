@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "removeComments": true,
+    "declaration": true,
+    "sourceMap": true,
+    "outDir": "dist/",
+    "typeRoots": ["./node_modules/@types"],
+    "types": [
+      "protractor",
+      "node"
+    ]
+  },
+  "include": [
+    "features/**/*.ts",
+    "node_modules/@types/node/index.d.ts"
+  ],
+  "exclude": [
+    "typings",
+    "node",
+    "node_modules",
+    "dist"
+  ]
+}

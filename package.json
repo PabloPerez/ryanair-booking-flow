@@ -1,0 +1,25 @@
+{
+  "name": "ryanair-booking-flow",
+  "version": "1.0.0",
+  "description": "ryanair automated booking",
+  "author": {
+    "name": "Pablo Perez Carrascal"
+  },
+  "scripts": {
+    "test": "protractor conf.js"
+  },
+  "devDependencies": {
+    "@types/cucumber": "^2.0.4",
+    "@types/node": "^6.0.62",
+    "@types/chai": "^4.0.4",
+    "@types/chai-as-promised": "^7.1.0",
+    "protractor": "^5.1.0",
+    "typescript": "2.0.3",
+    "ts-node": "^3.3.0",
+    "cucumber": "~3.0.1",
+    "protractor-cucumber-framework": "^4.1.1",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "moment": "^2.19.2"
+  }
+}
