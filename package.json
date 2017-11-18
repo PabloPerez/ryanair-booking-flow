@@ -5,6 +5,11 @@
   "author": {
     "name": "Pablo Perez Carrascal"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PabloPerez/ryanair-booking-flow.git"
+  },
+  "license": "MIT",
   "scripts": {
     "test": "protractor conf.js"
   },
