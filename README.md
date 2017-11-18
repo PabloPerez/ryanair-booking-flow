@@ -1,4 +1,4 @@
-#Ryanair  automated booking flow: Protractor, Cucumber and Typescript
+# Ryanair  automated booking flow: Protractor, Cucumber and Typescript
 
 Ryanair booking flow automation until payment page
 
@@ -18,7 +18,7 @@ custom configuration was needed in `conf.js` file. Also, **chai** assertion libr
 **MomentJS** used for date-time management
 
 Synchronization has been managed with async/await. For that, Selenium promise manager has been disabled `SELENIUM_PROMISE_MANAGER=false`.
-The reason behind It It's the improved readability and makes asynchronous code management easier.
+The reason behind is It improves readability and makes asynchronous code management easier.
 
 
 ### Features
@@ -78,3 +78,22 @@ Run the tests
 ``` npm run test ```
 
 ### Results and reporting
+
+Reporter used is the default protractor one
+```
+$ npm run test
+
+> ryanair-booking-flow@1.0.0 test D:\git_clones\ryanair-booking-flow
+> protractor conf.js
+
+[10:32:19] I/launcher - Running 1 instances of WebDriver
+[10:32:19] I/hosted - Using the selenium server at http://localhost:4444/wd/hub
+...
+
+3 scenarios (3 passed)
+9 steps (9 passed)
+5m20.960s
+[10:37:42] I/launcher - 0 instance(s) of WebDriver still running
+[10:37:42] I/launcher - chrome #01 passed
+```
+
